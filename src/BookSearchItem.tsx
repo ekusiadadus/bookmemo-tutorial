@@ -1,7 +1,7 @@
-import React form 'react';
-import {BookDescription, ReactDescription} from './BookDescription';
+import React from 'react';
+import {BookDescription} from './BookDescription';
 
-type BookSearchItem = {
+type BookSearchItemProps = {
   description: BookDescription;
   onBookAdd: (book: BookDescription) => void;
 }
