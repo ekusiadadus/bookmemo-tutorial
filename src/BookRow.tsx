@@ -38,3 +38,5 @@ const BookRow = (props: BookRowProps) => {
     </div>
   );
 };
+
+export default BookRow;
